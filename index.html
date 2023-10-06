@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NiceWeekend</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    
+</head>
+<body OnLoad="document.getElementById('input_box').focus();">
+<div id="navbar">
+    
+        <div id="weekend">
+            Baking Potato...
+        </div>
+    </div>
+
+<div id="add">
+    <div id="entettext"><span class="text">this weekend i will</span>
+    </span>
+    <input type="text" class="text" id="input_box" >
+</div>
+<span class="text" id="info">type and hit enter</span>
+</div>
+<h2 class="text" >Scheduled Weekends</h2>
+<div class="list-group">
+
+<div id="list">
+
+</div>
+
+
+</div>
+
+
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/0f40596886.js" crossorigin="anonymous"></script>
+<script src="https://www.unpkg.com/spltjs@1.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script>
+
+
+splt({});
+          
+          anime({
+            targets: '.char',
+            translateY: [0, -20],
+            direction: 'alternate',
+            loop: 1,
+            delay: anime.stagger(25),
+            easing: 'cubicBezier(.71,-0.77,.43,1.67)'
+          });
+</script>
+</html>

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px){
+    .text{
+        font-size: 30px;
+        text-align: start;
+    }
+    #add{
+        padding-left: 0px;
+        height: 40vh;
+    }
+    #navbar h1{
+        font-size: 30px;
+        text-align: start;
+    }
+    #weekend{
+        font-size: 20px;
+    }
+    #info{
+        display: none;
+    }
+    .btn{
+        font-size: 32px;
+    }
+
+
+
+
+
+
+
+}
