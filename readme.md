@@ -3,3 +3,5 @@
 
 #### Why NiceWeekend?
 NiceWeekend was initially created as my weekend side project I created to improve my JS skills. It is functional To-Do list with a weekend counter on the top right.
+
+I'm thinking of renaming it to Bad Weekend because its not that great.
